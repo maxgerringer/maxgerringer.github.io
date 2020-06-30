@@ -1,83 +1,62 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
-
+/* Custom colors and fonts */
+.my-name {
+  color: white; 
+  background-color: #8FB0A9;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body {
-  /* Box-model */
-  padding: 0;
-
-  /* Positioning */
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-
-  /* Typography */
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-
-  /* Visual */
-  background: #efeee7;
+  background-color: #F2D8B3 ;
 }
-
-header {
-  background: #d21034;
+.navbar {
+  background: #FBD266;
+  border: none;
 }
-
-h1 {
-  /* Box-model */
-  padding: 20px 0;
-
-  /* Positioning */
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-
-  /* Typography */
-  color: #eee;
-  text-align: center;
-
-  /* Visual */
-  background: #333;
+.nav-link {
+  color: #D76735;
 }
-
-h2 {
-  font-size: 24px;
+html {
+  position: relative;
+  min-height: 100%;
 }
-
-a {
-  color: #d21034;
+main {
+  margin: 80px 0;
 }
-
-.container {
-  /* Box-model */
-  width: 1024px;
-
-  /* Positioning */
-  margin: 0 auto;
+.box {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
 }
-
-#main-bio,
-#contact-info,
-#bio-image {
+.header {
+  color: #8FB0A9;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.selfie {
   float: left;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  /* Box-model */
   width: 200px;
-  height: 267px;
+  margin: 0 20px 10px 0;
+}
+footer {
+  text-align: center;
+  color: #FBD266;
+  background-color: #D76735;
+  padding-bottom: 20px;
+  border-top: #8FB0A9 solid 10px;
+  width: 100%;
+}
 
-  /* Positioning */
 
-  margin-right: 20px;
+/* Adjust color and formatting for small screens */
+@media only screen and (max-width: 767px) {
+  .navbar .container {
+    background-color: #8FB0A9;
+    justify-content: center;
+  }
+  .navbar {
+    background-color: #8FB0A9;
+  }
+  .nav-link {
+    color: white;
+  }
 }
