@@ -32,10 +32,23 @@ main {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
-.selfie {
+.image {
   float: left;
   width: 200px;
   margin: 0 20px 10px 0;
+}
+.thumbLeft {
+  float:left;
+  width: 200px;
+  margin: 20px;
+}
+.thumbRight {
+  float: right;
+  width: 200px;
+  margin: 20px;
+}
+.btn {
+  background-color: #8FB0A9;
 }
 footer {
   text-align: center;
@@ -57,5 +70,8 @@ footer {
   }
   .nav-link {
     color: white;
+  }
+  .thunmbLeft, .thumbRight {
+    float: none;
   }
 }
