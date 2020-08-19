@@ -37,6 +37,9 @@ main {
   width: 200px;
   margin: 0 20px 10px 0;
 }
+.card-img-top {
+  height: 200px;
+}
 .thumbLeft {
   float:left;
   width: 250px;
@@ -49,6 +52,11 @@ main {
 }
 .btn {
   background-color: #8FB0A9;
+  border-color: #8FB0A9;
+}
+.btn:hover {
+  background-color: #D76735;
+  border-color: #8FB0A9;
 }
 footer {
   text-align: center;
